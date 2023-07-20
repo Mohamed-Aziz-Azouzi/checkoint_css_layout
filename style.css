@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #747474;
+  height: 400vh;
+  width: 100vw;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  background-color: #fff;
+  height: 20px;
+  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: silver;
+}
+a:hover {
+  color: #00b39b;
+}
+
+.logo img {
+  max-width: 280px;
+  margin: 0 200px 0 0;
+}
+
+/* main */
+
+/* first-section */
+.first-section {
+  margin: 110px 15em;
+}
+
+.first-section > h1 {
+  text-align: center;
+  padding: 40px;
+}
+.object {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3em;
+}
+.object > p {
+  line-height: 2em;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+/* second-section */
+
+.second-section {
+  margin: 110px 15em;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2em;
+}
+.green-card,
+.blue-card,
+.balck-card {
+  border-radius: 10px;
+  height: 200px;
+  color: #fff;
+  padding: 2em;
+  height: 300px;
+}
+.green-card {
+  background-color: #00ccb1;
+}
+.blue-card {
+  background-color: #3d83df;
+}
+.balck-card {
+  background-color: #1b2734;
+}
+.font-size > h3 {
+  font-weight: 700;
+  margin: 20px auto;
+  font-size: 2em;
+}
+.font-size > p {
+  font-size: 1.5em;
+  line-height: 1.4;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+}
+.select-style {
+  text-decoration: underline;
+  border: none;
+  background-color: #1b273400;
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+.margin {
+  margin: 45px 0;
+}
+option {
+  color: black;
+  font-size: 1rem;
+}
+
+/* third section */
+.third-section {
+  margin: 110px 15em;
+  padding: 0;
+}
+.title {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  color: #00b39b;
+}
+.content {
+  display: flex;
+  gap: 4em;
+}
+.brands {
+  width: 80%;
+}
+.brands > ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+.brands > li > svg {
+  font-size: 1rem;
+}
+.brands > ul > li > a > svg {
+  width: 120px;
+}
+.jameda {
+  height: 20px;
+}
+.tuotempo {
+  width: 12px;
+}
+.tuotempo > img {
+  height: 16px;
+}
+.gipo {
+  height: 34px;
+  width: 12%;
+}
+.clinicloud {
+  height: 34px;
+}
+.feegow {
+  height: 20px;
+}
+/* fourth section */
+h1 {
+  font-size: 2em;
+  color: #00b39b;
+}
+.green {
+  background-color: #e5faf8;
+  height: 38em;
+  padding: 40px;
+  justify-content: center;
+}
+.section-fourth-text {
+  width: 30%;
+  margin-left: 19%;
+}
+.section-fourth-cards > p,
+h1 {
+  margin: 30px 10px;
+}
+.section-fourth-cards {
+  width: 50%;
+  display: flex;
+  gap: 1.3em;
+  align-items: center;
+}
+.col-2 {
+  margin: 0 0 70px 0;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1em;
+  width: 210px;
+  height: 230px;
+  margin: 1.3em 0;
+  border-radius: 10px;
+}
+.card1 > img {
+  width: 1em;
+  font-size: 2.2em;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto !important;
+}
+.card1 > h2,
+img,
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+.card1 > h2 {
+  color: #00b39b;
+}
+h1,
+h2 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* section 5 */
+
+.office-header {
+  margin: 40px 33%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.offices-slider {
+  margin: 70px 18%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4em;
+}
+.offices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  transition: 200ms ease;
+}
+
+.offices-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.offices-text > button {
+  display: inline-block;
+  width: 100px;
+  font-size: 0.625rem;
+  background-color: #3d83df;
+  border-radius: 4px;
+  border: none;
+  padding: 1em;
+  font-family: Roboto, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+figure {
+  margin: 0;
+}
+.offices > figure > img {
+  width: 100%;
+  height: 270px;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+}
+.offices h3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+.offices:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
